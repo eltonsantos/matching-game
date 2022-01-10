@@ -1,4 +1,4 @@
-import './style.css'
+import "./style.css";
 
 function CardGame(icon = "alura-pixel", alt = "Logo da Alura") {
   
@@ -7,7 +7,6 @@ function CardGame(icon = "alura-pixel", alt = "Logo da Alura") {
       <img src="src/images/${icon}.png" alt="${alt}">
     </article>
   `
-  
 }
 
 export default CardGame;
